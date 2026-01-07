@@ -1,0 +1,11 @@
+{
+  "anthropic": {
+    "monthlyCost": 100
+  },
+  "openai": {
+    "monthlyCost": 50
+  },
+  "google": {
+    "monthlyTokens": 50000000
+  }
+}

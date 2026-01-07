@@ -1,0 +1,26 @@
+{
+  "name": "opencode-usage",
+  "version": "1.0.0",
+  "description": "CLI tool to track and display OpenCode token usage statistics",
+  "type": "module",
+  "bin": {
+    "opencode-usage": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node --external blessed --external blessed-contrib",
+    "dev": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["opencode", "usage", "tokens", "cli"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/blessed": "^0.1.27",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "anthropic": {
+    "tokens5h": 5000000,
+    "tokensDaily": 20000000
+  },
+  "openai": {
+    "cost5h": 10,
+    "costDaily": 50
+  }
+}
