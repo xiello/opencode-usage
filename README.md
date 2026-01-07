@@ -5,7 +5,7 @@ CLI tool to track and display OpenCode token usage statistics.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/opencode-usage.git
+git clone https://github.com/xiello/opencode-usage.git
 cd opencode-usage
 bun install
 ```
